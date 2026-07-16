@@ -1,0 +1,15 @@
+class First:
+
+    var_input = ""
+
+    def input_name(self):
+        self.var_input = input("Enter the name : ")
+
+    def output_name(self):
+        print("Name: ", self.var_input)
+
+
+if __name__ == "__main__":
+    object = First()
+    object.input_name()
+    object.output_name()

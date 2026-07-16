@@ -1,0 +1,32 @@
+class Area:
+    """
+    Description : It calculate the area of rectangle
+    Input : Length and width
+    Output : Area of rectangle
+    Author : Viz
+    Created on : 16/07/2026
+    """
+
+    length = 0
+    width = 0
+
+    def input_values(self):
+        """
+        Args : No
+        Return : No
+        """
+        self.length = int(input("Enter length: "))
+        self.width = int(input("Enter width: "))
+
+    def calculate_area(self):
+        """
+        Args : No
+        Return : No
+        """
+        print("Area :", self.length * self.width)
+
+
+if __name__ == "__main__":
+    object = Area()
+    object.input_values()
+    object.calculate_area()
